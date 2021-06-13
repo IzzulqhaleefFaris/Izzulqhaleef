@@ -1,0 +1,174 @@
+@charset "utf-8";
+body{
+	background-color: #DADED4;
+	margin: 0px;
+	height: 1000px;
+	padding-bottom: 2px;
+	background-image: url("todo.png");
+	background-repeat: no-repeat;
+	background-size:auto;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.logo{
+	font-size: 5%;
+	font-weight: 300;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #DADED4;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    padding: 10px 50px 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	display:flex;
+}
+
+.menu ul li{
+	list-style:none;
+	margin: 0 20px;
+	display:inline;
+}
+
+.menu ul li a{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:black;
+	font-size: 18px;
+	font-weight:700;
+	text-decoration: none;
+	padding: 15px 20px;
+	display:inline-block;
+	transition: 0.4s;
+}
+
+.menu ul li a.active{
+	background: #DB3131;
+	opacity: 0.9;
+	border-radius: 15px;
+}
+
+.menu ul li:hover a{
+	background: #DB3131;
+	opacity: 0.9;
+	border-radius: 15px;
+}
+
+.box{
+	position:relative;
+	width: 1000px;
+	height: 900px;
+	margin: 60px auto;
+	background: #DADED4;
+	border-radius: 50px;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+}
+
+.box h1{
+	font-size: 50px;
+	padding: 10px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+.submit{
+	padding: 10px;
+	font-size: 24px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	transition: all 1s;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.submit:hover{
+	background-color:green;
+	border: black;
+	color:white;
+}
+
+footer{
+	background: #DADED4;
+	position: absolute;
+	left: 44.5%;
+}
+
+.copyright{
+	text-align:center;
+	margin-left: 30px;
+	padding-bottom: 5px;
+}
+
+.socials{
+	text-align: center;
+	padding-left: 20px;
+}
+
+
+.socials a{
+	text-decoration:none;
+}
+
+.footerBot img{
+	height: 35px;
+	padding: 5px;
+}
+
+.footerBot h3{
+	text-align: center;
+	margin-left: 25px;
+}
